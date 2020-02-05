@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'Align_Example' do
+  platform :ios, '10.0'
   pod 'Align', :path => '../'
 
   target 'Align_Tests' do
