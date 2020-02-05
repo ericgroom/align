@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Align_Example' do
+  pod 'Align', :path => '../'
+
+  target 'Align_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
